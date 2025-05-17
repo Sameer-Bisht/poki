@@ -53,7 +53,7 @@ const Pokemon = () => {
 
       <div className="pokemon-container">
         {loading && <div style={{display:"flex",justifyContent:'center',alignItems:'center',}} className="loading">
-                  <img src="../public/loading.gif" alt="" />
+                  <img src="/loading.gif" alt="" />
                 </div> }
         {searchData &&
           searchData.map((currElement) => {
